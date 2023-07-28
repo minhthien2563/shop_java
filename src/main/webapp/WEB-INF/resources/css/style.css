@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+i {
+    overflow-y: hidden;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-item {
+    width: 35vh;
+}
+
+.cart-btn {
+    color: white;
+}
+
+.cart-icon {
+    margin-right: 3vh;
+    color: white;
+}
+
+.login-button {
+    margin-right: 3vh;
+}
+
+.price {
+    width: 90%;
+    height: 9vh;
+    padding-top: 1vh;
+    padding-left: 3vh;
+    font-size: 5vh;
+    background: rgb(247, 245, 245);
+}
+
+.total-qty {
+    position: absolute;
+    top: 0.5vh;
+    right: 1vh;
+    font-size: 1.6vh;
+    width: 4vh;
+    background-color: white;
+    border-radius: 1em;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+.input-qty {
+    display: flex;
+}
+
+.input-qty input {
+    border: rgb(204, 201, 201) solid 1px;
+    border-right: 0;
+    border-left: 0;
+    width: 8vh;
+    text-align: center;
+
+}
+
+.input-qty span {
+    margin-right: 3vh;
+}
+
+.input-qty button {
+    background-color: transparent;
+    border: rgb(204, 201, 201) solid 1px;
+    width: 5vh;
+    font-weight: 600;
+}
+
+.btn-icon-text {
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    height: 8vh;
+    color: white;
+    padding: 0 2em;
+    width: 40%;
+}
+
+.btn-icon-text i {
+    margin-right: 1vh;
+}
+
+.cart {
+    background-color: black;
+    height: 95%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 7.5%;
+    right: -2%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5vh;
+}
+
+.cart-items {
+    height: 70%;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-left: 5vh;
+}
+
+.cartbtn {
+    font-weight: 500;
+    width: 20%;
+    height: 7%;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    text-decoration: none;
+}
+
+.cartbtn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.item {
+    cursor: pointer;
+    color: white;
+    margin-bottom: 3vh;
+    margin-left: 3%;
+    padding: 3vh;
+}
+
+.item:hover {
+    background-color: white;
+    color: black;
+}
+
+.item-img {
+    width: 70%;
+    height: 100%;
+}
+
+.price-cart {
+    color: white;
+    margin-top: 3%;
+    margin-left: 75%;
+}
+
+.cart-heading {
+    margin-left: 10%;
+}
+
+ul.list-inline.text-white.cart-heading {
+    margin-left: 27%;
+}
+
+.price-heading {
+    margin-left: 17%;
+}
+
+.amount-heading {
+    margin-left: 3%;
+}
+
+.total-heading {
+    margin-left: 8%;
+}
+
+.operation-heading {
+    margin-left: 7%;
+}
+
+span.username {
+    color: white;
+    margin-right: 1.3%;
+}
+
+.pay-cart {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.pay-cart input {
+    border: rgb(204, 201, 201) solid 1px;
+    border-right: 0;
+    border-left: 0;
+    width: 5vh;
+    text-align: center;
+
+}
+
+.pay-cart .btn button {
+    background-color: transparent;
+    border: rgb(204, 201, 201) solid 1px;
+    width: 5vh;
+    font-weight: 600;
+}
+
+.pay .btn-pay {
+    white-space: nowrap;
+    background-color: black;
+    align-items: center;
+    font-size: 2.5vh;
+    height: 10vh;
+    color: white;
+    padding: 0 8.6em;
+}
+
+::-webkit-scrollbar {
+    width: 1vh;
+}
+
+.admin {
+    margin-top: 10vh;
+}
+
+.admin-img {
+    width: 40vh;
+    height: 25vh;
+}
+
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+}
+
+.form-edit {
+    width: 70%;
+    margin: 10vh;
+    padding: 10vh;
+    background-color: whitesmoke;
+}
+
